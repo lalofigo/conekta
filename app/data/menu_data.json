@@ -1,0 +1,45 @@
+{
+    "menu" : [
+        {
+            "id":1,
+            "name": "General",
+            "url": "#",
+            "icon": "FaThLarge"
+        },
+        {
+            "id":2,
+            "name": "Transactions",
+            "url": "#",
+            "icon": "FaExchangeAlt",
+            "sublinks":[
+                {
+                    "id":2.1,
+                    "name": "Payments",
+                    "url": "/"
+                },
+                {
+                    "id":2.2,
+                    "name": "Transfers",
+                    "url": "/transfers"
+                },
+                {
+                    "id":2.3,
+                    "name": "Chargebacks",
+                    "url": "/chargebacks"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name": "Accounting",
+            "url": "#",
+            "icon": "FaMoneyBillAlt"
+        },
+        {
+            "id":4,
+            "name": "Developers",
+            "url": "#",
+            "icon": "FaCode"
+        }
+    ]
+}
